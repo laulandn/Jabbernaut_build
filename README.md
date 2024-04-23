@@ -5,17 +5,20 @@ Attempt to build from last available source snapshot.
 
 For CodeWarrior Pro 6.
 
-Includes all required dependencies 
+Includes all required dependencies:
 + GUSI (socket and other *nix style functions)
 + MacJLib (for xml parsing)
 + Zoop (application framework)
 + OpenSSL (encyrption and decryption)
 
-MacOS version and requirements unknown.
+MacOS version and requirements unknown....guesses:
++ MacOS 8.5+?
++ Probably not Appearance manager
++ Probably OpenTransport
 
 Includes new work on port for m68k Macs.
 
-+ Jabbernaut Carb Z2.5.mcp - for Carbon, unfinished by original author
-+ Jabbernaut PPC.mcp - builds
-+ Jabbernaut m68k.mcp - compiles but does not yet link
-+ TOQ.mcp - original author's special cut down version for "TBN Online"
++ "Jabbernaut Carb Z2.5.mcp" - for Carbon, unfinished by original author
++ "Jabbernaut PPC.mcp" - builds
++ "Jabbernaut m68k.mcp" - compiles but does not yet link
++ "TOQ.mcp" - original author's special cut down version for "TBN Online", does not build
