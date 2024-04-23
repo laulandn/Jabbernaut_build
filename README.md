@@ -1,4 +1,5 @@
 Jabbernaut instant messager client for classic MacOS
+===============
 
 Attempt to build from last available source.
 
