@@ -1,7 +1,9 @@
 Jabbernaut: instant messager client for classic MacOS
 ===============
 
-Attempt to build from last available source snapshot.
+An attempt to build from last available source snapshot.  Will attempt to fix bugs and improve stability.  Adding support for m68k Macs.
+
+The version number in the sources is "0.6d1", this may indicate it is the original author's work post-5.5b1, which was the last publicly available binary.
 
 For CodeWarrior Pro 6.
 
