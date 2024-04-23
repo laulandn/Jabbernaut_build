@@ -20,6 +20,8 @@ MacOS version and requirements unknown....guesses:
 
 Includes new work on port for m68k Macs.
 
+CodeWarrior project files:
+
 + "Jabbernaut Carb Z2.5.mcp" - for Carbon, unfinished by original author
 + "Jabbernaut PPC.mcp" - builds
 + "Jabbernaut m68k.mcp" - compiles but does not yet link
