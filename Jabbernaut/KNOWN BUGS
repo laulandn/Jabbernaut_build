@@ -1,0 +1,1 @@
+* register user code is messy* forcefully cut connections prevent Jabbernaut from opening a socket again.  This is due to a bug in OpenTransport and/or GUSI.* there is a race condition when you quit while logged in, and a message arrives in the same moment  If this is a chat message, but the chat message queue has already been killed, it "asserts"

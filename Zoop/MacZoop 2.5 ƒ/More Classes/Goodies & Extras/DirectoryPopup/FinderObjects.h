@@ -1,0 +1,1 @@
+/* *	Project:		<none> * *	Filename: 		FinderObjects.h * *	Author: 		Marco Piovanelli * *	Revision History: * *			1996.06.02				MP		created this file * */#ifndef __FILES__#include <Files.h>#endifOSErr OpenFinderObject ( const FSSpec * inThing ) ;

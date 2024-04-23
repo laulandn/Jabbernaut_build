@@ -1,0 +1,1 @@
+/* *	Support for automatically naming the precompiled header file ... */#ifdef powerc  #pragma precompile_target "MSLGUSITestHeadersPPC"#else#ifdef __CFM68K__  #pragma precompile_target "MSLGUSITestHeadersCFM68K"#else  #pragma precompile_target "MSLGUSITestHeaders68K"#endif#endif#define __dest_os __mac_os#define MSLGUSI 1#include "GUSITest.h"

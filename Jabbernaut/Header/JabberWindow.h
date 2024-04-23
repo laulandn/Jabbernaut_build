@@ -1,0 +1,1 @@
+#pragma once#include "ZWindow.h"class JabberWindow : public ZWindow{typedef ZWindow inherited;protected:	bool		alreadDoneTest;	public:	JabberWindow( ZCommander* aBoss, const short windowID );	virtual ~JabberWindow();	virtual void	InitZWindow();	virtual void	DrawContent();	virtual void	DoTest();};

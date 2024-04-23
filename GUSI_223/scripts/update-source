@@ -1,0 +1,1 @@
+## update-source new old## Replaces a file with a new copy if it changed, otheriwse leaves it alone# Locks the original file## $Log: update-source,v $# Revision 1.1  1998/08/01 21:52:46  neeri# Added scripts#If `Exists "{2}"` != ""	cmp --silent "{1}" "{2}" && Exit	setfile -a l "{2}"³Dev:NullEndDuplicate -y "{1}" "{2}" setfile -a L "{2}"
