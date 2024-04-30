@@ -1,0 +1,1 @@
+#!/bin/zsh## weavem - Create HTML versions of all noweb files## $Log: weavem,v $# Revision 1.2  1998/08/02 18:44:47  neeri# Added web directory## Revision 1.1  1998/08/01  21:54:41  neeri# added weavem#for i in *.nw	noweave -filter l2h -x -html -t4 $i >../web/${i%nw}html
